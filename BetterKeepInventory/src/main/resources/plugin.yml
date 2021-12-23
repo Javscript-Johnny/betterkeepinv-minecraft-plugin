@@ -1,0 +1,4 @@
+name: BetterKeepInventory
+version: '${project.version}'
+main: xyz.mrsherobrine.betterkeepinventory.betterkeepinventory.BetterKeepInventory
+api-version: 1.18
