@@ -49,7 +49,8 @@
     /*    */
     @EventHandler
     /*    */ public void onRespawn(PlayerRespawnEvent pre) {
-        if (inventoryList.containsKey(pre.getPlayer().getUniqueId()) && experienceMap.containsKey(pre.getPlayer().getUniqueId())) {
+        if (inventoryList.containsKey(pre.getPlayer().getUniqueId()) && experienceMap.containsKey(pre.getPlayer().getUniqueId())
+            && !inventoryList.isEmpty() && !experienceMap.isEmpty()) {
             pre.getPlayer().getInventory().setContents(inventoryList.get(pre.getPlayer().getUniqueId()));
             pre.getPlayer().setTotalExperience((Integer) experienceMap.get(pre.getPlayer().getUniqueId()));
             inventoryList.remove(pre.getPlayer().getUniqueId());
