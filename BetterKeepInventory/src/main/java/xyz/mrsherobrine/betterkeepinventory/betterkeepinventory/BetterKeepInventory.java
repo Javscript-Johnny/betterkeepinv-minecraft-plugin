@@ -4,8 +4,7 @@
 /*    */ import org.bukkit.plugin.Plugin;
 /*    */ import org.bukkit.plugin.java.JavaPlugin;
 /*    */ 
-/*    */ public final class BetterKeepInventory
-/*    */   extends JavaPlugin {
+/*    */ public final class BetterKeepInventory extends JavaPlugin {
 /*  9 */   public static Logger LOGGER = null;
 /*    */ 
 /*    */ 
