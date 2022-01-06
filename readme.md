@@ -1,1 +1,1 @@
-this plugin is like regular keep inventory but if you die to a player you drop your stuff. If you get errors dm me on discord: canssd#9414.
+Unlike normal keep inventory in Minecraft where if you die to anything you keep your stuff, This plugin makes the game more competitive while removing the frustrations from dying naturally.It give your inventory back when you die except if you die to a player,then you drop your stuff. If you get errors dm me on discord: canssd#9414.
